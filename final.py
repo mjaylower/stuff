@@ -85,7 +85,7 @@ class NameAndAddress:
             self.add(name_and_email)
         elif choice == 3:  # IF 3 IS SELECTED, RUN THE 'CHANGE' FUNCTION
             self.change(name_and_email)
-        elif choice == 3:  # IF 4 IS SELECTED, RUN THE 'DELETE' FUNCTION
+        elif choice == 4:  # IF 4 IS SELECTED, RUN THE 'DELETE' FUNCTION
             self.delete(name_and_email)
         elif choice == 5:  # IF 5 IS SELECTED, RUN THE 'QUIT_AND_SAVE' FUNCTION - PROGRAM ENDS
             self.quit_and_save(name_and_email)
